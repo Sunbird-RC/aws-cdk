@@ -12,7 +12,6 @@ import { helmvaultStack } from "../lib/helm-vault-stack";
 import { sunbirdrc2helmStack } from "../lib/sunbirdrc2-helm-stack";
 import { helmvaultinitStack } from "../lib/helm-vaultInit-stack.";
 
-
 const config = getConfig();
 const app = new cdk.App();
 
